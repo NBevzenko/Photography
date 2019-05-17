@@ -16,8 +16,6 @@ export default () => (
                     <li> <Link to="about">About</Link></li>
                 </ul></nav>
         </header>
-        <div class="content">
-            
-        </div>
+        <div class="content"/>
     </div>
 )
