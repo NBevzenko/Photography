@@ -5,8 +5,7 @@ import { Link } from "gatsby"
 export default () => (
     <div>
         <header>
-            <h1 class="logo">Photography</h1>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <h1 className="logo">Photography</h1>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>
@@ -16,7 +15,7 @@ export default () => (
                     <li> <Link to="about">About</Link></li>
                 </ul></nav>
         </header>
-        <div class="content">
+        <div className="content">
             <h3> Welcome to my website!
             This is an interactive photography website that I did for my tech finals project in 7th grade.
             Press random image to recieve a random photo from the internet. Press hide text to hide this text.

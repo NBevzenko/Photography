@@ -17,7 +17,7 @@ export default () => (
                 </ul></nav>
         </header>
         <div class="content">
-            This is about text.
+            <h3>This is about text.</h3>
         </div>
     </div>
 )
