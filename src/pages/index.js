@@ -1,5 +1,6 @@
 import React from "react"
 import layout from  "../components/homeLayout"
+import {Link} from "gatsby"
 
 export default () => (
     <div>
@@ -7,7 +8,9 @@ export default () => (
         <h1 class="logo">Photography</h1>
      <input type="checkbox" id="nav-toggle" class="nav-toggle"/> 
 <nav>
-<ul>
+    <ul>
+    <li><Link to="/">Home</Link></li>
+    <li> <Link to="about">About</Link></li>
 <li><a href="https://source.unsplash.com/random">Home</a></li>
 <li><a href="#">Random Image</a></li>
 <li><a href="#">Remove Text</a></li>
