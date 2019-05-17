@@ -17,7 +17,9 @@ export default () => (
                 </ul></nav>
         </header>
         <div class="content">
-            <h3>This is about text.</h3>
+            <h3>I did this webpage for my 7th grade tech project. 
+                We have been doing a coding unit since the start of the second semester at THRogers school. 
+                It has been a good experience and I hope to try again! </h3>
         </div>
     </div>
 )
