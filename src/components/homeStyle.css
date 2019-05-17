@@ -16,7 +16,13 @@ body {
 }
 
 .content {
-  height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
   background-image: url(https://images.unsplash.com/photo-1554502785-b8b0724b4cbd?ixlib=rb-1.2.1&auto);
   background-color: #ddd;
   background-blend-mode: multiply;
